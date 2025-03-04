@@ -1,0 +1,27 @@
+C:\Users\mcmas>python -myt_dlp -vF yt-dlp https://olympics.com/en/paris-2024/videos/jumping-individual-qualifier-equestrian-olympic-games-paris-2024
+[debug] Command-line config: ['-vF', 'https://olympics.com/en/paris-2024/videos/jumping-individual-qualifier-equestrian-olympic-games-paris-2024']
+[debug] Encodings: locale cp1251, fs utf-8, pref cp1251, out utf-8, error utf-8, screen utf-8
+[debug] yt-dlp version nightly@2024.09.29.232819 from yt-dlp/yt-dlp-nightly-builds [6328e2e67] (pip)
+[debug] Python 3.12.1 (CPython AMD64 64bit) - Windows-11-10.0.22631-SP0 (OpenSSL 3.0.11 19 Sep 2023)
+[debug] exe versions: none
+[debug] Optional libraries: Cryptodome-3.20.0, brotli-1.1.0, certifi-2024.07.04, mutagen-1.47.0, requests-2.32.3, sqlite3-3.43.1, urllib3-2.2.2, websockets-13.0
+[debug] Proxy map: {}
+[debug] Request Handlers: urllib, requests, websockets
+[debug] Loaded 1838 extractors
+[OlympicsReplay] Extracting URL: https://olympics.com/en/paris-2024/videos/jumping-individual-qualifier-equestrian-olympic-games-paris-2024
+[OlympicsReplay] jumping-individual-qualifier-equestrian-3x3-olympic-games-paris-2024: Downloading webpage
+[OlympicsReplay] jumping-individual-qualifier-equestrian-3x3-olympic-games-paris-2024: Downloading tokenized m3u8 url
+[OlympicsReplay] jumping-individual-qualifier-equestrian-3x3-olympic-games-paris-2024: Downloading m3u8 information
+[debug] Formats sorted by: hasvid, ie_pref, lang, quality, res, fps, hdr:12(7), vcodec:vp9.2(10), channels, acodec, size, br, asr, proto, vext, aext, hasaud, source, id
+[info] Available formats for ab5abea5-aa23-4ac1-8250-538c420af844:
+ID                                EXT RESOLUTION FPS │   TBR PROTO │ VCODEC        VBR ACODEC     MORE INFO
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+hls-audio-AACL-180-English        mp4 audio only     │       m3u8  │ audio only        unknown    [eng] English
+hls-audio-AACL-180-Original_audio mp4 audio only     │       m3u8  │ audio only        unknown    [qaa] Original audio
+hls-334                           mp4 320x180     25 │  334k m3u8  │ avc1.4d400c  334k video only
+hls-771                           mp4 640x360     25 │  771k m3u8  │ avc1.4d401e  771k video only
+hls-1313                          mp4 854x480     25 │ 1313k m3u8  │ avc1.4d401e 1313k video only
+hls-2395                          mp4 1280x720    25 │ 2396k m3u8  │ avc1.4d401f 2396k video only
+hls-5645                          mp4 1920x1080   25 │ 5645k m3u8  │ avc1.4d4028 5645k video only
+
+C:\Users\mcmas>
